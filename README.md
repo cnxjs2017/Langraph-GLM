@@ -64,5 +64,5 @@ pip install -r requirements.txt
 1. llm1，这个文件实现了单-“多智能体”，tool实现了工具调用；
 2. llm1_tool1，这个文件实现了调用工具的单-“多智能体”；
 3. llm2，这个文件实现了真正的多智能体；
-4. 基于llm2，我拆分出agents、config、tools、workflow、main五个文件，算是一种小型的代码实践。
+4. 基于llm2，我拆分出agents、config、tools、workflow、main五个文件，算是一种小型的代码实践，在config文件中填写api_key之后，运行main即可。
 - 建议一个一个运行过来看懂逻辑。

@@ -55,7 +55,12 @@ conda activate langraph  # 激活这个环境
 pip install -r requirements.txt
 ```
 
+### 获取api_key
+
+这个项目使用了免费的glm-4-flash作为智能体的本体，需要在指定位置填自己的api_key才可以运行，搜索智谱api_key应该会有很多获取api_key的教程，本处不再赘述。
+
 ### 学习顺序
+
 1. llm1，这个文件实现了单-“多智能体”，tool实现了工具调用；
 2. llm1_tool1，这个文件实现了调用工具的单-“多智能体”；
 3. llm2，这个文件实现了真正的多智能体；

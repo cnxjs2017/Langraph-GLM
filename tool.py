@@ -1,7 +1,7 @@
 import requests
 import uuid
 
-api_key = "b113cf2c709a532c3463ecb7b98a34a9.fRTyuaRMssiuuNHi"
+api_key = ""
 
 def run_v4_sync():
     msg = [
